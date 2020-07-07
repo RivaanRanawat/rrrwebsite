@@ -1,0 +1,182 @@
+body {
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nameOfAbout {
+  color: black;
+  font-family: "Permanent Marker", cursive;
+  font-size: 5rem;
+  cursor: default;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rainbow:hover {
+  -webkit-animation: rainbow 6s infinite;
+  -ms-animation: rainbow 6s infinite;
+  -o-animation: rainbow 6s infinite;
+  animation: rainbow 6s infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
+@-ms-keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
